@@ -1,6 +1,6 @@
 <template>
   <div class="w-full -mt-20 relative">
-    <img src="../assets/Rectangle.png" alt="" class="absolute -sm:-left-40" />
+    <img src="../assets/Rectangle.png" alt="" class="absolute -sm:-left-50" />
     <img
       src="../assets/Rectangle.png"
       alt=""
@@ -12,7 +12,7 @@
       class="max-w-screen-xl mx-auto relative h-screen z-10 -xl:w-full -xl:px-4"
     >
       <div class="center-y">
-        <h1 class="text-9xl -sm:text-8xl -sm:text-center">
+        <h1 class="text-9xl -sm:text-7xl -sm:text-center">
           I'm a {{ words[setRandomWord] }} <br />
           front-end developer.
         </h1>
