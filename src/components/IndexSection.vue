@@ -71,8 +71,4 @@ export default defineComponent({
 });
 </script>
 
-<style>
-.bg-image {
-  background-image: url("https://images.unsplash.com/photo-1616618885543-379ceed8b007?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80");
-}
-</style>
+<style></style>

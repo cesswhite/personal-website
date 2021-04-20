@@ -1,7 +1,7 @@
 <template>
   <div class="w-full pb-10">
     <div
-      class="max-w-screen-xl mx-auto h-screen relative pt-40 flex -xl:w-full -xl:px-4 -lg:flex-col"
+      class="max-w-screen-xl mx-auto h-screen relative pt-40 flex -xl:w-full -xl:px-4 -lg:flex-col -sm:h-auto"
     >
       <div class="w-1/2 -lg:w-full -sm:mb-10">
         <h1 class="text-9xl -sm:text-8xl -sm:text-center mb-4">Works</h1>
@@ -44,7 +44,7 @@
           v-for="n in 4"
           :key="n"
           :style="{
-            'background-image': `url('~@/assets/works/${nameFolder}-${n}.png')`,
+            backgroundImage: `url('/src/works/${nameFolder}-${n}.png')`,
           }"
           class="relative w-full h-100 bg-cover bg-no-repeat rounded-md mx-auto mb-4 -lg:mr-10 -lg:h-full -lg:w-200 flex-none photo"
         ></div>
