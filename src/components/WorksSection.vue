@@ -38,7 +38,7 @@
         </div>
       </div>
       <div
-        class="w-1/2 px-10 overflow-scroll -lg:w-full -lg:flex -lg:w-full -lg:h-240 -lg:overflow-y-hidden -lg:px-0 -lg:py-10"
+        class="w-1/2 px-10 overflow-scroll -lg:w-full -lg:flex -lg:w-full -lg:h-auto -lg:overflow-y-hidden -lg:px-0 -lg:py-10"
       >
         <div
           v-for="n in 4"
@@ -46,7 +46,7 @@
           :style="{
             backgroundImage: `url('/works/${nameFolder}-${n}.png')`,
           }"
-          class="relative w-full h-100 bg-cover bg-no-repeat rounded-md mx-auto mb-4 -lg:mr-10 -lg:h-full -lg:w-200 flex-none photo"
+          class="relative w-full h-100 bg-cover bg-no-repeat rounded-md mx-auto mb-4 -lg:mr-10 -lg:h-80 -lg:w-200 flex-none photo"
         ></div>
       </div>
     </div>

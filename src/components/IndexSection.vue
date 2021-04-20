@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full -mt-20 relative">
-    <img src="../assets/Rectangle.png" alt="" class="absolute -sm:-left-50" />
+  <div class="w-full -mt-20 relative overflow-x-hidden">
+    <img src="../assets/Rectangle.png" alt="" class="absolute -sm:-left-120" />
     <img
       src="../assets/Rectangle.png"
       alt=""
-      class="absolute right-0 bottom-0"
+      class="absolute right-0 bottom-0 -sm:-right-80"
     />
     <div class="absolute filter-drop w-full h-screen z-10"></div>
 
