@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full">
+  <div class="w-full ?">
     <div
-      class="max-w-screen-xl mx-auto h-screen relative pt-40 flex -xl:w-full -xl:px-4 -sm:flex-col"
+      class="max-w-screen-xl mx-auto h-screen relative pt-40 flex -xl:w-full -xl:px-4 -sm:flex-col -sm:h-auto"
     >
       <div class="w-1/2 -sm:w-full -sm:mb-10">
         <h1 class="text-9xl -sm:text-8xl -sm:text-center mb-4">About me</h1>

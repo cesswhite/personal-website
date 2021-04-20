@@ -1,6 +1,6 @@
 <template>
   <div class="w-full -mt-20 relative">
-    <img src="../assets/Rectangle.png" alt="" class="absolute -sm:-left-10" />
+    <img src="../assets/Rectangle.png" alt="" class="absolute -sm:-left-40" />
     <img
       src="../assets/Rectangle.png"
       alt=""
