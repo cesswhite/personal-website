@@ -7,26 +7,35 @@
         <Logo />
       </div>
       <div class="w-1/2 flex items-center justify-end -lg:hidden">
-        <button
-          class="cursor-pointer w-1/4 py-3 font-bold text-xl rounded-xl bg-transparent border-none hover:bg-gray-800 hover:text-gray-50"
-        >
-          About
-        </button>
-        <button
-          class="cursor-pointer w-1/4 py-3 font-bold text-xl rounded-xl bg-transparent border-none hover:bg-gray-800 hover:text-gray-50"
-        >
-          Work
-        </button>
-        <button
-          class="cursor-pointer w-1/4 py-3 font-bold text-xl rounded-xl bg-transparent border-none hover:bg-gray-800 hover:text-gray-50"
-        >
-          Contact
-        </button>
-        <button
-          class="cursor-pointer w-1/4 py-3 font-bold text-xl rounded-full bg-gray-800 text-gray-50 border-none hover:bg-gray-800 ml-1"
-        >
-          Playground
-        </button>
+        <a href="#aboutSection" v-smooth-scroll class="w-1/4">
+          <button
+            class="cursor-pointer py-3 w-full font-bold text-xl rounded-full bg-transparent border-none hover:bg-gray-800 hover:text-gray-50"
+          >
+            About
+          </button>
+        </a>
+        <a href="#workSection" v-smooth-scroll class="w-1/4">
+          <button
+            class="cursor-pointer py-3 w-full font-bold text-xl rounded-full bg-transparent border-none hover:bg-gray-800 hover:text-gray-50"
+          >
+            Work
+          </button>
+        </a>
+        <a href="#contactSection" v-smooth-scroll class="w-1/4">
+          <button
+            class="cursor-pointer py-3 w-full font-bold text-xl rounded-full bg-transparent border-none hover:bg-gray-800 hover:text-gray-50"
+          >
+            Contact
+          </button>
+        </a>
+
+        <a href="#workSection" v-smooth-scroll class="w-1/4">
+          <button
+            class="cursor-pointer py-3 w-full font-bold text-xl rounded-full bg-gray-800 text-gray-50 border-none hover:bg-gray-700 ml-1"
+          >
+            Playground
+          </button>
+        </a>
       </div>
       <div class="w-1/2 flex items-center text-right hidden -lg:block">
         <button class="p-3 bg-transparent border-none">
@@ -52,4 +61,8 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+a {
+  font-s
+}
+</style>

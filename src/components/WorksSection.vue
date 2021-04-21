@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full pb-10">
+  <div id="workSection" class="w-full pb-10">
     <div
       class="max-w-screen-xl mx-auto h-screen relative pt-40 flex -xl:w-full -xl:px-4 -lg:flex-col -sm:h-auto"
     >
