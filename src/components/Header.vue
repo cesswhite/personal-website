@@ -18,7 +18,7 @@
           <button
             class="cursor-pointer py-3 w-full font-bold text-xl rounded-full bg-transparent border-none hover:bg-gray-800 hover:text-gray-50"
           >
-            Work
+            Works
           </button>
         </a>
         <a href="#contactSection" v-smooth-scroll class="w-1/4">

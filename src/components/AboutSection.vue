@@ -2,16 +2,16 @@
   <div id="aboutSection" class="w-full relative">
     <div
       id="sphereGradientOne"
-      class="bg-gradient-to-r from-green-200 via-green-300 to-blue-500 w-100 h-100 absolute bottom-30 left-0 -sm:w-40 -sm:h-40 -sm:bottom-120"
+      class="bg-gradient-to-r from-green-200 via-green-300 to-blue-500 rounded-full w-100 h-100 absolute bottom-30 left-0 -sm:w-40 -sm:h-40 -sm:bottom-120"
     ></div>
     <div
       id="sphereGradient"
-      class="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 w-80 h-80 absolute top-40 right-0 -sm:w-40 -sm:h-40 -sm:top-90"
+      class="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 rounded-full w-80 h-80 absolute top-40 right-0 -sm:w-40 -sm:h-40 -sm:top-90"
     ></div>
 
-    <div class="absolute filter-drop w-full h-screen z-10 -sm:h-full"></div>
+    <div class="absolute filter-drop w-full h-screen z-10 -lg:h-full"></div>
     <div
-      class="max-w-screen-xl mx-auto h-screen relative z-10 pt-40 flex -xl:w-full -xl:px-4 -sm:flex-col -sm:h-auto -sm:pt-10"
+      class="max-w-screen-xl mx-auto h-screen relative z-10 pt-30 flex -xl:w-full -xl:px-4 -sm:flex-col -lg:h-auto -lg:pb-30 -sm:pt-10"
     >
       <div class="w-1/2 -sm:w-full -sm:mb-10">
         <h1 class="text-9xl -sm:text-8xl -sm:text-center mb-4">About me</h1>

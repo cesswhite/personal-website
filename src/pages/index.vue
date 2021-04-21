@@ -3,7 +3,7 @@
     <index-section></index-section>
     <about-section></about-section>
     <works-section></works-section>
-    <contact-section></contact-section>
+    <!-- <contact-section></contact-section> -->
   </div>
 </template>
 
