@@ -35,8 +35,8 @@
             <p
               class="font-bold leading-snug text-xl text-gray-800 text-opacity-70 mb-10"
             >
-              Countertop masters is a company dedicated to the restoration and
-              creation of countertop for all types of places within your home.
+              Company dedicated to the creation, modification and restoration of
+              countertops that need a delicate care.
             </p>
             <div>
               <span class="text-gray-800 text-opacity-40 font-bold text-lg"
@@ -115,7 +115,7 @@
               class="font-bold leading-snug text-xl text-gray-800 text-opacity-70 mb-10"
             >
               Knives Mexico is a company dedicated to the sale and distribution
-              of knives and pocket knives for all types of use
+              of knives and pocket knives for all types of use.
             </p>
             <div>
               <span class="text-gray-800 text-opacity-40 font-bold text-lg"
@@ -259,17 +259,17 @@
             <p
               class="font-bold leading-snug text-md text-gray-800 text-opacity-50"
             >
-              Most of the results of my work belong to the private sphere, but I
-              have also worked on my own with some people who believed in me,
-              and these are some of them.If you want to have more knowledge of
-              what I can do, visit
+              Most of my work has been for private companies, but I have worked
+              on some projects on my own with people who have believed in me,
+              these are some of them. If you want to know more about what I do
+              or can do, I invite you to visit
               <router-link
                 to="playground"
                 class="bg-gradient-to-b from-orange-500 to-yellow-300 bg-clip-text text-transparent"
               >
                 my playground
               </router-link>
-              or let me know what you are thinking.
+              or send me an email and we'll gladly talk.
             </p>
           </div>
           <div class="w-1/2 flex items-center -sm:w-full">
