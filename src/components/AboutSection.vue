@@ -137,7 +137,7 @@ export default defineComponent({
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1366px) {
   #sphereGradientOne,
   #sphereGradient {
     animation: none;

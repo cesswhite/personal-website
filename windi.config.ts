@@ -1,8 +1,9 @@
 import { defineConfig } from "vite-plugin-windicss";
+import filters from "windicss/plugin/filters";
 
 export default defineConfig({
   darkMode: "class",
-  plugins: [],
+  plugins: [filters],
   shortcuts: {},
   theme: {
     extend: {},
