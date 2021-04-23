@@ -14,7 +14,9 @@
       class="max-w-screen-xl mx-auto h-screen relative z-10 pt-30 flex -xl:w-full -xl:px-4 -sm:flex-col -lg:h-auto -lg:pb-30 -sm:pt-10"
     >
       <div class="w-1/2 -sm:w-full -sm:mb-10">
-        <h1 class="text-9xl -sm:text-8xl -sm:text-center mb-4">About me</h1>
+        <h1 class="text-9xl -sm:text-8xl -sm:text-center mb-4 font-bold">
+          About me
+        </h1>
         <p class="font-bold leading-snug text-xl text-gray-800 text-opacity-70">
           I have always liked everything related to the world of art and
           programming, after finishing university I decided to put these two

@@ -1,10 +1,10 @@
 <template>
   <div id="workSection" class="w-full relative pb-10">
     <div
-      class="bg-gradient-to-b from-light-blue-400 to-light-blue-200 rounded-full w-100 h-100 absolute bottom-30 left-0 -sm:w-40 -sm:h-40 -sm:bottom-120"
+      class="bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-700 rounded-full w-100 h-100 absolute bottom-30 left-0 -sm:w-40 -sm:h-40 -sm:bottom-120"
     ></div>
     <div
-      class="bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 rounded-full w-80 h-80 absolute top-60 right-0 -sm:w-40 -sm:h-40 -sm:top-90"
+      class="bg-gradient-to-r from-green-200 via-green-400 to-green-500 rounded-full w-80 h-80 absolute top-60 right-0 -sm:w-40 -sm:h-40 -sm:top-90"
     ></div>
 
     <div class="absolute filter-drop w-full h-full z-10 -lg:h-full"></div>
@@ -12,9 +12,11 @@
       class="max-w-screen-xl mx-auto relative pt-30 z-10 -xl:w-full -xl:px-4 -sm:h-auto -sm:pt-0"
     >
       <div class="w-full">
-        <h1 class="text-9xl -sm:text-8xl -sm:text-center mb-4">Works</h1>
+        <h1 class="text-9xl -sm:text-8xl -sm:text-center mb-4 font-bold">
+          Works
+        </h1>
       </div>
-      <div class="">
+      <div class="mt-10">
         <!-- CounterTopMasters -->
         <div class="flex mb-10 -md:flex-col">
           <div class="group w-1/2 relative flex items-center -md:w-full">
@@ -31,7 +33,7 @@
             <span class="text-gray-800 text-opacity-30 font-bold italic text-lg"
               >Web Development</span
             >
-            <h1 class="text-4xl mb-4">CounterTop Masters</h1>
+            <h1 class="text-4xl mb-4 font-bold">CounterTop Masters</h1>
             <p
               class="font-bold leading-snug text-xl text-gray-800 text-opacity-70 mb-10"
             >
@@ -110,7 +112,7 @@
             <span class="text-gray-800 text-opacity-30 font-bold italic text-lg"
               >Web redesign</span
             >
-            <h1 class="text-4xl mb-4">Knives México</h1>
+            <h1 class="text-4xl mb-4 font-bold">Knives México</h1>
             <p
               class="font-bold leading-snug text-xl text-gray-800 text-opacity-70 mb-10"
             >
@@ -174,7 +176,7 @@
         </div>
 
         <!--Codigo Fuente Software -->
-        <div class="flex -md:flex-col">
+        <div class="flex -md:flex-col mb-10">
           <div class="group w-1/2 relative flex items-center -md:w-full">
             <div
               class="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 w-11/12 h-100 mx-auto rounded-md transition duration-300 ease-in-out transform -sm:w-full -sm:h-60 group-hover:scale-105 group-hover:-rotate-2"
@@ -187,7 +189,7 @@
             <span class="text-gray-800 text-opacity-30 font-bold italic text-lg"
               >Web Development</span
             >
-            <h1 class="text-4xl mb-4">Código Fuente Software</h1>
+            <h1 class="text-4xl mb-4 font-bold">Código Fuente Software</h1>
             <p
               class="font-bold leading-snug text-xl text-gray-800 text-opacity-70 mb-10"
             >
@@ -253,9 +255,9 @@
 
         <!--Note -->
         <div
-          class="w-full flex items-center justify-between rounded-md mt-10 shadow-xl py-6 new-border -sm:flex-col -sm:px-4"
+          class="w-full flex items-center justify-between rounded-md shadow-xl ml-8 py-6 px-4 new-border -sm:flex-col -sm:px-4 -sm:m-0"
         >
-          <div class="w-1/2 pl-8 -sm:w-full -sm:pl-0">
+          <div class="w-1/2 -sm:w-full -sm:pl-0">
             <p
               class="font-bold leading-snug text-md text-gray-800 text-opacity-50"
             >
@@ -303,16 +305,12 @@
 
 <style scoped>
 .bg-image-counter {
-  background-image: url("../../public/works/ctm-1-min.png");
+  background-image: url("/works/ctm-1-min.png");
 }
 .bg-image-knives {
-  background-image: url("../../public/works/knives-1-min.png");
+  background-image: url("/works/knives-1-min.png");
 }
 .bg-image-cf {
-  background-image: url("../../public/works/cf-1-min.png");
-}
-
-.new-border {
-  border: 2px solid rgba(229, 231, 235, 0.8);
+  background-image: url("/works/cf-1-min.png");
 }
 </style>

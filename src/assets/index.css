@@ -10,7 +10,9 @@ html {
   /* scroll-behavior: smooth; */
   @apply text-sm font-sans;
 }
-
+body {
+  @apply overflow-x-hidden;
+}
 *,
 *::before,
 *::after {
@@ -18,12 +20,10 @@ html {
   margin: 0;
   user-select: none;
 }
-body {
-  @apply overflow-x-hidden;
-}
 
 button {
-  @apply outline-none border-none;
+  border: none;
+  @apply outline-none;
 }
 
 .\? {
@@ -44,6 +44,12 @@ button {
   @apply absolute m-0  top-2/4;
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
+}
+
+.center-x {
+  @apply absolute m-0 left-2/4;
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
 
 .filter-drop {
