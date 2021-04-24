@@ -1,22 +1,16 @@
 <template>
   <div id="aboutSection" class="w-full relative">
     <div
-      id="sphereGradientOne"
-      class="bg-gradient-to-r from-green-200 via-green-300 to-blue-500 rounded-full w-100 h-100 absolute bottom-30 left-0 -sm:w-40 -sm:h-40 -sm:bottom-120"
+      class="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 w-250 h-80 absolute top-40 right-0 -xl:top-10 -xl:w-2/4 -sm:w-60 -sm:h-60"
     ></div>
     <div
-      id="sphereGradient"
-      class="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 rounded-full w-80 h-80 absolute top-40 right-0 -sm:w-40 -sm:h-40 -sm:top-90"
+      class="bg-gradient-to-r from-green-200 via-green-300 to-blue-500 w-400 h-100 absolute bottom-30 left-0 -xl:bottom-20 -xl:w-3/5 -xl:h-50 -sm:w-full -sm:bottom-60"
     ></div>
-
-    <div class="absolute filter-drop w-full h-screen z-10 -lg:h-full"></div>
     <div
       class="max-w-screen-xl mx-auto h-screen relative z-10 pt-30 flex -xl:w-full -xl:px-4 -sm:flex-col -lg:h-auto -lg:pb-30 -sm:pt-10"
     >
       <div class="w-1/2 -sm:w-full -sm:mb-10">
-        <h1 class="text-9xl -sm:text-8xl -sm:text-center mb-4 font-bold">
-          About me
-        </h1>
+        <big-title title="About me"></big-title>
         <p class="font-bold leading-snug text-xl text-gray-800 text-opacity-70">
           I have always liked everything related to the world of art and
           programming, after finishing university I decided to put these two
@@ -63,7 +57,7 @@
         <div :style="cardStyle">
           <div
             ref="target"
-            class="relative w-100 h-140 bg-cover bg-no-repeat rounded-md mx-auto photo"
+            class="relative w-100 h-140 bg-cover bg-no-repeat bg-center rounded-md mx-auto photo -sm:w-full"
           ></div>
         </div>
       </div>
@@ -107,42 +101,5 @@ export default defineComponent({
   top: 0;
   left: 0;
   z-index: -1;
-}
-
-#sphereGradientOne {
-  animation: moveOne 10s ease-in-out infinite alternate;
-}
-#sphereGradient {
-  animation: move 50s ease-in-out infinite alternate;
-}
-@keyframes move {
-  0% {
-    transform: translate(100px, 200px);
-  }
-  50% {
-    transform: translate(-400px, 200px);
-  }
-  100% {
-    transform: translate(-500px, 500px);
-  }
-}
-
-@keyframes moveOne {
-  0% {
-    transform: translate(0, -200px) scale(1);
-  }
-  50% {
-    transform: translate(0, -300px) scale(0.7);
-  }
-  100% {
-    transform: translate(0, -400px) scale(1.4);
-  }
-}
-
-@media screen and (max-width: 1366px) {
-  #sphereGradientOne,
-  #sphereGradient {
-    animation: none;
-  }
 }
 </style>

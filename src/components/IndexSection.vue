@@ -1,20 +1,19 @@
 <template>
-  <div id="home" class="w-full -mt-20 relative overflow-x-hidden">
+  <div id="home" class="w-full relative overflow-x-hidden">
     <div
-      class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 w-100 h-100 absolute -sm:w-20 -sm:h-20"
+      class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 w-100 h-100 absolute -lg:w-2/3 -lg:h-60 -sm:w-60 -sm:h-60"
     ></div>
     <div
-      class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 w-140 h-200 absolute right-0 bottom-0 opacity-70 -sm:w-40 -sm:h-40"
+      class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 w-140 h-170 absolute right-0 bottom-0 -lg:w-1/2 -lg:h-80 -sm:w-11/12 -sm:h-50"
     ></div>
-
-    <div class="absolute filter-drop w-full h-screen z-10"></div>
 
     <div
       class="max-w-screen-xl mx-auto relative h-screen z-10 -xl:w-full -xl:px-4"
     >
       <div class="center-y -lg:text-center">
         <h1 class="text-9xl font-bold -sm:text-7xl -sm:text-center">
-          I'm a {{ words[setRandomWord] }} <br />
+          <span class="capitalize">{{ words[setRandomWord] }} </span>
+          <br />
           front-end developer.
         </h1>
       </div>
@@ -33,7 +32,6 @@ export default defineComponent({
       "minimalistic",
       "fantastic",
       "incredible",
-      "handsome",
       "magic",
       "awesome",
     ]);
@@ -50,4 +48,36 @@ export default defineComponent({
 });
 </script>
 
-<style></style>
+<style>
+
+
+.animation-target {
+  animation: animation 750ms linear  both;
+}
+
+/* Generated with Bounce.js. Edit at http://bouncejs.com#%7Bl%3A1%2Cs%3A%5B%7BT%3A%22k%22%2Ce%3A%22s%22%2Cd%3A750%2CD%3A0%2Cf%3A%7Bx%3A0%2Cy%3A0%7D%2Ct%3A%7Bx%3A40%2Cy%3A60%7D%2Cs%3A3%2Cb%3A4%7D%2C%7BT%3A%22c%22%2Ce%3A%22b%22%2Cd%3A750%2CD%3A0%2Cf%3A%7Bx%3A1%2Cy%3A1%7D%2Ct%3A%7Bx%3A2%2Cy%3A2%7D%2Cs%3A2%2Cb%3A4%7D%5D%7D */
+
+@keyframes animation {
+  0% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  3.2% { transform: matrix3d(1.345, 0.383, 0, 0, 0.252, 1.345, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  4.5% { transform: matrix3d(1.485, 0.5, 0, 0, 0.326, 1.485, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  6.41% { transform: matrix3d(1.673, 0.603, 0, 0, 0.393, 1.673, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  9.01% { transform: matrix3d(1.88, 0.616, 0, 0, 0.403, 1.88, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  12.71% { transform: matrix3d(2.064, 0.467, 0, 0, 0.308, 2.064, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  13.51% { transform: matrix3d(2.087, 0.424, 0, 0, 0.28, 2.087, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  17.92% { transform: matrix3d(2.139, 0.197, 0, 0, 0.131, 2.139, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  18.92% { transform: matrix3d(2.137, 0.155, 0, 0, 0.103, 2.137, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  25.23% { transform: matrix3d(2.075, -0.003, 0, 0, -0.002, 2.075, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  29.03% { transform: matrix3d(2.032, -0.03, 0, 0, -0.02, 2.032, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  31.43% { transform: matrix3d(2.012, -0.033, 0, 0, -0.022, 2.012, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  34.63% { transform: matrix3d(1.994, -0.029, 0, 0, -0.019, 1.994, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  40.14% { transform: matrix3d(1.985, -0.015, 0, 0, -0.01, 1.985, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  56.46% { transform: matrix3d(2, 0.002, 0, 0, 0.001, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  62.36% { transform: matrix3d(2.002, 0.001, 0, 0, 0.001, 2.002, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  81.48% { transform: matrix3d(2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  84.68% { transform: matrix3d(2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { transform: matrix3d(2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+}
+
+vanishIn
+</style>
