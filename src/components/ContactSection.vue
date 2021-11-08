@@ -4,7 +4,6 @@
     class="
       flex
       h-screen
-      w-full
       relative
       items-center
       justify-center
@@ -32,7 +31,6 @@
     ></div>
     <div
       class="
-        ?
         bg-gradient-to-t
         h-full
         from-blue-300
@@ -48,7 +46,7 @@
       "
     ></div>
 
-    <div class="flex mx-auto w-full z-10 relative">
+    <div class="flex mx-auto w-screen-xl z-10 relative -xl:w-full">
       <div
         class="
           rounded-md
