@@ -55,6 +55,9 @@ button {
 .filter-drop {
   @apply bg-gray-50 bg-opacity-70;
 }
+.photo {
+  background-image: url("/me.jpg");
+}
 
 /* If the browser support backdrop-filter property, will use the next code */
 @supports (
