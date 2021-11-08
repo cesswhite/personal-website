@@ -1,7 +1,15 @@
 <template>
   <div
     id="aboutSection"
-    class="flex h-screen w-full relative items-center justify-center"
+    class="
+      flex
+      h-screen
+      w-full
+      relative
+      items-center
+      justify-center
+      -sm:h-auto -sm:py-30
+    "
   >
     <!-- <div
       class="
@@ -41,12 +49,11 @@
         z-10
         justify-between
         relative
-        -sm:flex-col -sm:pt-10
-        -lg:h-auto -lg:pb-30
-        -xl:w-full -xl:px-4
+        -md:flex-col
+        -lg:px-10
       "
     >
-      <div class="w-1/2 -sm:mb-10 -sm:w-full">
+      <div class="w-1/2 -sm:mb-10 -sm:w-full -sm:px-10 -md:w-full">
         <big-title title="About me"></big-title>
         <p
           class="
@@ -109,9 +116,10 @@
           >
         </div>
       </div>
-      <div class="w-1/2 relative group -sm:w-full">
+      <div
+        class="w-1/2 relative group -sm:mt-10 -sm:w-full -md:mt-30 -md:w-full"
+      >
         <div
-          ref="target"
           class="
             bg-cover bg-no-repeat bg-center
             mx-auto
@@ -137,6 +145,8 @@
             ease-in-out
             w-120
             duration-300
+            -md:mt-0
+            -lg:rotate-8
             group-hover:scale-115 group-hover:-rotate-2
           "
         ></div>

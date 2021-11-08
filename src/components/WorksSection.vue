@@ -249,12 +249,12 @@
         </work-card>
 
         <!--Note -->
-        <div class="flex items-center justify-center">
+        <div class="flex mb-10 items-center justify-center">
           <div class="w-11/12">
             <p
               class="
-                font-bold
-                text-md
+                font-bold font-sans
+                text-sm
                 leading-snug
                 w-full
                 text-gray-800 text-opacity-50
@@ -267,41 +267,12 @@
               <a
                 href="https://ecodev.netlify.app/"
                 target="_blank"
-                class="
-                  bg-gradient-to-b bg-clip-text
-                  from-orange-400
-                  to-yellow-300
-                  text-transparent
-                "
+                class="text-blue-600"
               >
                 my digital studio
               </a>
               or send me an email and we'll gladly talk.
             </p>
-            <button
-              class="
-                bg-transparent
-                flex
-                mx-auto
-                py-4
-                w-1/2
-                items-center
-                justify-center
-                -sm:w-full
-              "
-            >
-              <span
-                class="
-                  bg-gradient-to-r bg-clip-text
-                  font-bold
-                  from-blue-600
-                  to-blue-200
-                  text-transparent text-4xl
-                "
-              >
-                Be the next
-              </span>
-            </button>
           </div>
         </div>
       </div>

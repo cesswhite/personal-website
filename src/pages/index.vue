@@ -1,5 +1,5 @@
 <template>
-  <div class="-mt-20">
+  <div class="-mt-20 overflow-x-hidden">
     <index-section></index-section>
     <about-section></about-section>
     <works-section></works-section>

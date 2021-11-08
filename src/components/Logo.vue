@@ -1,8 +1,7 @@
 <template>
   <a href="#home" v-smooth-scroll>
     <svg
-      width="60"
-      height="36"
+      class="h-12 w-12"
       viewBox="0 0 60 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

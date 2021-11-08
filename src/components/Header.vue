@@ -1,6 +1,8 @@
 <template>
   <div class="w-full top-0 z-20 filter-drop sticky -sm:top-0">
-    <div class="flex mx-auto h-20 w-screen-xl items-center -xl:w-full">
+    <div
+      class="flex mx-auto h-20 w-screen-xl items-center -xl:w-full -xl:px-10"
+    >
       <div class="w-1/2">
         <Logo />
       </div>
@@ -62,7 +64,7 @@
           </button>
         </a> -->
       </div>
-      <div class="flex text-right w-1/2 items-center hidden -lg:block">
+      <!-- <div class="flex text-right w-1/2 items-center hidden -lg:block">
         <button class="bg-transparent border-none p-3">
           <svg
             class="h-10 w-10"
@@ -77,7 +79,7 @@
             ></path>
           </svg>
         </button>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
