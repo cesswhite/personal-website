@@ -1,46 +1,71 @@
 <template>
-  <div class="w-full sticky top-2 z-20 -sm:top-0">
-    <div
-      class="max-w-screen-xl mx-auto flex items-center h-20 filter-drop px-4 rounded-full -xl:w-full -sm:rounded-none"
-    >
+  <div class="w-full top-0 z-20 filter-drop sticky -sm:top-0">
+    <div class="flex mx-auto h-20 w-screen-xl items-center -xl:w-full">
       <div class="w-1/2">
         <Logo />
       </div>
-      <div class="w-1/2 flex items-center justify-end -lg:hidden">
-        <a href="#aboutSection" v-smooth-scroll class="w-1/4">
-          <button
-            class="cursor-pointer py-3 w-full font-bold text-xl rounded-full bg-transparent border-none hover:bg-gray-800 hover:text-gray-50"
+      <div class="flex w-1/2 items-center justify-end -lg:hidden">
+        <a
+          href="#aboutSection"
+          v-smooth-scroll
+          class="font-bold text-xl text-gray-800 w-1/4 hover:underline"
+        >
+          About
+          <!-- <button
+            class="
+              bg-transparent
+              border-none
+              rounded-full
+              cursor-pointer
+              font-bold
+              text-xl
+              w-full
+              py-3
+              hover:bg-gray-800 hover:text-gray-50
+            "
           >
             About
-          </button>
+          </button> -->
         </a>
-        <a href="#workSection" v-smooth-scroll class="w-1/4">
-          <button
-            class="cursor-pointer py-3 w-full font-bold text-xl rounded-full bg-transparent border-none hover:bg-gray-800 hover:text-gray-50"
-          >
-            Works
-          </button>
+        <a
+          href="#workSection"
+          v-smooth-scroll
+          class="font-bold text-xl text-gray-800 w-1/4 hover:underline"
+        >
+          Works
         </a>
-        <a href="#contactSection" v-smooth-scroll class="w-1/4">
-          <button
-            class="cursor-pointer py-3 w-full font-bold text-xl rounded-full bg-transparent border-none hover:bg-gray-800 hover:text-gray-50"
-          >
-            Contact
-          </button>
+        <a
+          href="#contactSection"
+          v-smooth-scroll
+          class="font-bold text-xl text-gray-800 w-1/4 hover:underline"
+        >
+          Contact
         </a>
 
-        <a href="#workSection" v-smooth-scroll class="w-1/4">
+        <!-- <a href="#workSection" v-smooth-scroll class="w-1/4">
           <button
-            class="cursor-pointer py-3 w-full font-bold text-xl rounded-full bg-gray-800 text-gray-50 border-none hover:bg-gray-700 ml-1"
+            class="
+              border-none
+              rounded-full
+              cursor-pointer
+              font-bold
+              bg-gray-800
+              text-xl
+              ml-1
+              w-full
+              py-3
+              text-gray-50
+              hover:bg-gray-700
+            "
           >
             Playground
           </button>
-        </a>
+        </a> -->
       </div>
-      <div class="w-1/2 flex items-center text-right hidden -lg:block">
-        <button class="p-3 bg-transparent border-none">
+      <div class="flex text-right w-1/2 items-center hidden -lg:block">
+        <button class="bg-transparent border-none p-3">
           <svg
-            class="w-10 h-10"
+            class="h-10 w-10"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -56,13 +81,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style>
-a {
-  font-s
-}
-</style>

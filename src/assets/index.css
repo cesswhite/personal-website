@@ -8,7 +8,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   /* scroll-behavior: smooth; */
-  @apply text-sm font-sans;
+  @apply font-sans text-sm;
 }
 body {
   @apply overflow-x-hidden;
@@ -35,19 +35,19 @@ button {
 }
 
 .center-x-y {
-  @apply absolute m-0  top-2/4 left-2/4;
+  @apply m-0 top-2/4  left-2/4 absolute;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .center-y {
-  @apply absolute m-0  top-2/4;
+  @apply m-0 top-2/4  absolute;
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
 
 .center-x {
-  @apply absolute m-0 left-2/4;
+  @apply m-0 left-2/4 absolute;
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
 }
@@ -58,11 +58,11 @@ button {
 
 /* If the browser support backdrop-filter property, will use the next code */
 @supports (
-  (-webkit-backdrop-filter: blur(100px)) or (backdrop-filter: blur(100px))
+  (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px))
 ) {
   .filter-drop {
-    backdrop-filter: blur(100px);
-    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     background: inherit;
   }
 }

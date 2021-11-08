@@ -1,30 +1,81 @@
 <template>
-  <div id="contactSection" class="w-full relative -sm:pb-10">
+  <div id="contactSection" class="h-screen w-full relative -sm:pb-10">
     <notification :show="showNotification" />
-
     <div
-      class="bg-gradient-to-l from-blue-100 via-blue-300 to-blue-500 w-100 h-250 absolute right-0 bottom-0 -xl:h-screen -sm:w-40 -sm:h-40 -sm:top-0"
+      class="h-screen w-full z-1 center-x-y backdrop-filter backdrop-blur-lg"
     ></div>
     <div
-      class="bg-gradient-to-r from-blue-300 via-green-200 to-yellow-300 w-150 h-150 absolute left-0 bottom-0 -lg:w-100 -lg:h-100 -sm:w-1/2 -sm:h-11/12"
+      class="
+        bg-gradient-to-t
+        from-blue-100
+        via-blue-300
+        to-blue-500
+        h-190
+        right-40
+        bottom-0
+        w-20
+        absolute
+      "
+    ></div>
+    <div
+      class="
+        bg-gradient-to-t
+        h-screen
+        from-blue-300
+        via-green-200
+        to-yellow-300
+        transform
+        top-0
+        left-100
+        w-20
+        rotate-45
+        absolute
+        -sm:h-11/12 -sm:w-1/2
+        -lg:h-100 -lg:w-100
+      "
     ></div>
 
     <div
-      class="max-w-screen-xl mx-auto h-screen relative z-10 pt-24 flex -xl:w-full -xl:px-4 -sm:flex-col -lg:h-auto"
+      class="
+        flex
+        h-screen
+        mx-auto
+        max-w-screen-xl
+        pt-24
+        z-10
+        relative
+        -sm:flex-col
+        -lg:h-auto
+        -xl:w-full -xl:px-4
+      "
     >
       <div
-        class="w-1/2 h-190 filter-drop rounded-md px-4 py-6 -md:h-auto -md:w-full"
+        class="
+          rounded-md
+          h-190
+          py-6
+          px-4
+          w-1/2
+          filter-drop
+          -md:h-auto -md:w-full
+        "
       >
         <big-title title="Contact"></big-title>
         <p
-          class="font-bold leading-snug text-xl text-gray-800 text-opacity-70 mb-10"
+          class="
+            font-bold
+            text-xl
+            leading-snug
+            mb-10
+            text-gray-800 text-opacity-70
+          "
         >
           Do you have a project in mind? Let's get in touch
         </p>
         <div class="">
           <form @submit.prevent="sendEmail">
-            <div class="w-full flex justify-between mb-6">
-              <div class="w-1/2 flex flex-col mr-4 -sm:w-1/2">
+            <div class="flex mb-6 w-full justify-between">
+              <div class="flex flex-col mr-4 w-1/2 -sm:w-1/2">
                 <div class="mb-3">
                   <label class="font-bold text-gray-800 text-opacity-60"
                     >Name</label
@@ -33,7 +84,18 @@
                 <div class="w-full">
                   <input
                     type="text"
-                    class="bg-gray-50 bg-opacity-80 w-full py-3 rounded-md pl-2 border-2 border-gray-500 border-opacity-20 font-bold placeholder-gray-300 text-lg focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    class="
+                      rounded-md
+                      font-bold
+                      bg-gray-50 bg-opacity-80
+                      border-2 border-gray-500 border-opacity-20
+                      text-lg
+                      w-full
+                      py-3
+                      pl-2
+                      placeholder-gray-300
+                      focus:outline-none focus:ring-2 focus:ring-gray-800
+                    "
                     v-model="data.name"
                     name="name"
                     placeholder="Harry Potter"
@@ -42,7 +104,7 @@
                 </div>
               </div>
 
-              <div class="w-1/2 flex flex-col">
+              <div class="flex flex-col w-1/2">
                 <div class="mb-3">
                   <label class="font-bold text-gray-800 text-opacity-60"
                     >Email</label
@@ -51,7 +113,18 @@
                 <div class="w-full">
                   <input
                     type="email"
-                    class="bg-gray-50 bg-opacity-80 w-full py-3 rounded-md pl-2 border-2 border-gray-500 border-opacity-20 font-bold placeholder-gray-300 text-lg focus:outline-none focus:ring-2 focus:ring-gray-800"
+                    class="
+                      rounded-md
+                      font-bold
+                      bg-gray-50 bg-opacity-80
+                      border-2 border-gray-500 border-opacity-20
+                      text-lg
+                      w-full
+                      py-3
+                      pl-2
+                      placeholder-gray-300
+                      focus:outline-none focus:ring-2 focus:ring-gray-800
+                    "
                     v-model="data.email"
                     name="email"
                     placeholder="harrypotter@hogwarts.wz"
@@ -70,7 +143,18 @@
               <textarea
                 name="message"
                 v-model="data.message"
-                class="bg-gray-50 bg-opacity-80 w-full py-3 rounded-md pl-2 border-2 border-gray-500 border-opacity-20 font-bold placeholder-gray-300 text-lg focus:outline-none focus:ring-2 focus:ring-gray-800"
+                class="
+                  rounded-md
+                  font-bold
+                  bg-gray-50 bg-opacity-80
+                  border-2 border-gray-500 border-opacity-20
+                  text-lg
+                  w-full
+                  py-3
+                  pl-2
+                  placeholder-gray-300
+                  focus:outline-none focus:ring-2 focus:ring-gray-800
+                "
                 cols="30"
                 rows="8"
                 placeholder="I need help for a magical hogwarts website"
@@ -78,9 +162,9 @@
               >
               </textarea>
             </div>
-            <div class="w-full mt-10">
+            <div class="mt-10 w-full">
               <button
-                class="bg-gray-800 w-full py-2 rounded-md"
+                class="rounded-md bg-gray-800 w-full py-2"
                 @click="sendEmail"
               >
                 <span class="font-bold text-xl text-gray-50">Send an owl</span>
@@ -93,7 +177,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { ref, defineComponent, reactive } from "vue";
 import emailjs from "emailjs-com";
 

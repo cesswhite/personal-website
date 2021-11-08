@@ -1,14 +1,21 @@
 import { defineConfig } from "vite-plugin-windicss";
-import filters from "windicss/plugin/filters";
-import typography from "windicss/plugin/typography";
-import forms from "windicss/plugin/forms";
+const filters = require("windicss/plugin/filters");
+const colors = require("windicss/colors");
 
 export default defineConfig({
   darkMode: "class",
-  plugins: [filters, typography, forms],
-  shortcuts: {},
+  plugins: [filters],
   theme: {
-    extend: {},
+    colors: {
+      gray: colors.trueGray,
+      blue: colors.cyan,
+      green: colors.emerald,
+      violet: colors.violet,
+      purple: colors.purple,
+      pink: colors.pink,
+      red: colors.red,
+      yellow: colors.amber,
+      orange: colors.orange,
+    },
   },
-  variants: {},
 });
