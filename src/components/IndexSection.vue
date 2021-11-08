@@ -36,9 +36,7 @@
       "
     ></div>
 
-    <div
-      class="h-screen mx-auto max-w-screen-xl z-10 relative -xl:w-full -xl:px-4"
-    >
+    <div class="h-screen mx-auto max-w-screen-xl z-10 relative -xl:w-full">
       <div class="center-y -lg:text-center">
         <h1
           class="

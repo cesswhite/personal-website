@@ -1,8 +1,6 @@
 <template>
   <div class="w-full top-0 z-20 filter-drop sticky -sm:top-0">
-    <div
-      class="flex mx-auto h-20 w-screen-xl items-center -xl:w-full -xl:px-10"
-    >
+    <div class="flex mx-auto h-20 w-screen-xl items-center -xl:w-full -xl:px-4">
       <div class="w-1/2">
         <Logo />
       </div>

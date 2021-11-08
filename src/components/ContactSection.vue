@@ -1,26 +1,40 @@
 <template>
-  <div id="contactSection" class="h-screen w-full relative -sm:pb-10">
+  <div
+    id="contactSection"
+    class="
+      flex
+      h-screen
+      w-full
+      relative
+      items-center
+      justify-center
+      -md:h-full -md:py-10
+    "
+  >
     <notification :show="showNotification" />
     <div
-      class="h-screen w-full z-1 center-x-y backdrop-filter backdrop-blur-lg"
+      class="h-full w-full z-1 center-x-y backdrop-filter backdrop-blur-lg"
     ></div>
     <div
       class="
         bg-gradient-to-t
-        from-blue-100
-        via-blue-300
-        to-blue-500
-        h-190
+        h-full
+        from-blue-500
+        via-green-300
+        to-blue-400
         right-40
         bottom-0
         w-20
         absolute
+        -sm:opacity-60
+        -md:left-0
       "
     ></div>
     <div
       class="
+        ?
         bg-gradient-to-t
-        h-screen
+        h-full
         from-blue-300
         via-green-200
         to-yellow-300
@@ -28,36 +42,23 @@
         top-0
         left-100
         w-20
-        rotate-45
+        -rotate-45
         absolute
-        -sm:h-11/12 -sm:w-1/2
-        -lg:h-100 -lg:w-100
+        -md:right-0 -md:bottom-0
       "
     ></div>
 
-    <div
-      class="
-        flex
-        h-screen
-        mx-auto
-        max-w-screen-xl
-        pt-24
-        z-10
-        relative
-        -sm:flex-col
-        -lg:h-auto
-        -xl:w-full -xl:px-4
-      "
-    >
+    <div class="flex mx-auto w-full z-10 relative">
       <div
         class="
           rounded-md
           h-190
+          w-full
           py-6
           px-4
-          w-1/2
           filter-drop
           -md:h-auto -md:w-full
+          -lg:px-10
         "
       >
         <big-title title="Contact"></big-title>

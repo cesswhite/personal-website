@@ -8,7 +8,8 @@
       relative
       items-center
       justify-center
-      -sm:h-auto -sm:py-30
+      -sm:py-30
+      -md:h-auto
     "
   >
     <!-- <div
@@ -44,23 +45,25 @@
     <div
       class="
         flex
+        h-auto
         mx-auto
         max-w-screen-xl
         z-10
         justify-between
         relative
         -md:flex-col
-        -lg:px-10
+        -lg:w-full
       "
     >
-      <div class="w-1/2 -sm:mb-10 -sm:w-full -sm:px-10 -md:w-full">
-        <big-title title="About me"></big-title>
+      <div class="h-auto w-1/2 -sm:mb-10 -md:w-full -lg:px-10">
+        <big-title title="About me" class="-lg:text-xl"></big-title>
         <p
           class="
             font-semibold
             text-xl
             leading-snug
             text-gray-700 text-opacity-70
+            -sm:text-sm
           "
         >
           I have always liked everything related to the world of art and
@@ -145,8 +148,7 @@
             ease-in-out
             w-120
             duration-300
-            -md:mt-0
-            -lg:rotate-8
+            -md:mt-0 -md:scale-115 -md:-rotate-2
             group-hover:scale-115 group-hover:-rotate-2
           "
         ></div>
