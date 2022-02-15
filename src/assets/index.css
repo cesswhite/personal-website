@@ -60,13 +60,13 @@ button {
 }
 
 .bg-image-ctm {
-  background-image: url("/ctm-mockup.png");
+  background-image: url("/ctm-mockup.webp");
 }
 .bg-image-cf {
-  background-image: url("/cf-mockup.png");
+  background-image: url("/cf-mockup.webp");
 }
 .bg-image-km {
-  background-image: url("/km-mockup.png");
+  background-image: url("/km-mockup.webp");
 }
 
 /* If the browser support backdrop-filter property, will use the next code */
