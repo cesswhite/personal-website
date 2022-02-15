@@ -59,6 +59,16 @@ button {
   background-image: url("/me.jpg");
 }
 
+.bg-image-ctm {
+  background-image: url("/ctm-mockup.png");
+}
+.bg-image-cf {
+  background-image: url("/cf-mockup.png");
+}
+.bg-image-km {
+  background-image: url("/km-mockup.png");
+}
+
 /* If the browser support backdrop-filter property, will use the next code */
 @supports (
   (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px))

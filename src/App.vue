@@ -1,6 +1,6 @@
 <template>
   <div class="w-full relative">
-    <Header></Header>
+    <Header />
     <router-view />
   </div>
 </template>

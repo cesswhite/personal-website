@@ -1,60 +1,7 @@
 <template>
   <div id="workSection" class="w-full pt-20 relative">
-    <!-- <div
-      class="
-        bg-gradient-to-l
-        from-green-200
-        via-green-300
-        to-blue-500
-        h-40
-        top-100
-        right-0
-        w-3/5
-        absolute
-        -sm:top-150
-        -md:w-full -md:top-200
-        -xl:left-0
-      "
-    ></div>
     <div
-      class="
-        bg-gradient-to-l
-        from-pink-500
-        via-red-500
-        to-yellow-500
-        h-250
-        bottom-70
-        left-0
-        w-80
-        absolute
-        -md:w-full
-        -xl:h-40 -xl:w-3/5
-      "
-    ></div>
-    <div
-      class="
-        bg-gradient-to-r
-        from-purple-200
-        via-purple-400
-        to-purple-800
-        h-250
-        right-0
-        bottom-0
-        w-80
-        absolute
-        -md:w-full -md:bottom-2/5
-        -xl:h-40 -xl:bottom-180 -xl:w-3/5
-      "
-    ></div> -->
-    <div
-      class="
-        mx-auto
-        max-w-screen-xl
-        z-10
-        relative
-        -sm:h-auto -sm:pt-0
-        -xl:w-full -xl:px-4
-      "
+      class="mx-auto max-w-screen-xl z-10 relative -sm:h-auto -sm:pt-0 -xl:w-full -xl:px-4"
     >
       <div class="w-full">
         <big-title title="Works"></big-title>
@@ -70,35 +17,9 @@
           desktop
         >
           <template v-slot:bg-image>
-            <div class="bg-gray-300 h-140 mb-10 w-full"></div>
-            <!-- <div
-              class="
-                bg-gradient-to-r
-                rounded-md
-                mx-auto
-                from-green-200
-                via-green-300
-                to-blue-500
-                h-100
-                transform
-                transition
-                ease-in-out
-                w-11/12
-                duration-300
-                -sm:h-60 -sm:w-full
-                group-hover:scale-105 group-hover:-rotate-2
-              "
-            ></div>
             <div
-              class="
-                bg-image-counter bg-cover bg-no-repeat bg-center
-                rounded-md
-                h-100
-                w-11/12
-                center-x-y
-                -sm:bg-contain -sm:h-60
-              "
-            ></div> -->
+              class="bg-contain bg-center bg-no-repeat bg-image-ctm h-140 mb-10 w-full"
+            ></div>
           </template>
           <template v-slot:description>
             Company dedicated to the creation, modification and restoration of
@@ -134,37 +55,9 @@
           desktop
         >
           <template v-slot:bg-image>
-            <div class="bg-gray-300 h-140 mb-10 w-full"></div>
-            <!-- <div
-              class="
-                bg-gradient-to-r
-                rounded-md
-                mx-auto
-                from-pink-300
-                via-purple-300
-                to-indigo-400
-                h-100
-                transform
-                transition
-                ease-in-out
-                w-11/12
-                duration-300
-                -sm:h-60 -sm:w-full
-                group-hover:scale-105 group-hover:rotate-2
-              "
-            ></div>
             <div
-              class="
-                bg-image-knives bg-cover bg-no-repeat bg-center
-                rounded-md
-                h-100
-                top-0
-                left-0
-                w-11/12
-                center-x-y
-                -sm:bg-contain -sm:h-60
-              "
-            ></div> -->
+              class="bg-contain bg-center bg-no-repeat bg-image-km h-140 mb-10 w-full"
+            ></div>
           </template>
           <template v-slot:description>
             Knives Mexico is a company dedicated to the sale and distribution of
@@ -192,37 +85,9 @@
           desktop
         >
           <template v-slot:bg-image>
-            <div class="bg-gray-300 h-140 mb-10 w-full"></div>
-            <!-- <div
-              class="
-                bg-gradient-to-r
-                rounded-md
-                mx-auto
-                from-pink-500
-                via-red-500
-                to-yellow-500
-                h-100
-                transform
-                transition
-                ease-in-out
-                w-11/12
-                duration-300
-                -sm:h-60 -sm:w-full
-                group-hover:scale-105 group-hover:-rotate-2
-              "
-            ></div>
             <div
-              class="
-                bg-image-cf bg-cover bg-no-repeat bg-center
-                rounded-md
-                h-100
-                top-0
-                left-0
-                w-11/12
-                center-x-y
-                -sm:bg-contain -sm:h-60
-              "
-            ></div> -->
+              class="bg-cover bg-center bg-no-repeat bg-image-cf h-140 mb-10 w-full"
+            ></div>
           </template>
           <template v-slot:description>
             Company focused on the development of software for the medical
@@ -252,13 +117,7 @@
         <div class="flex mb-10 items-center justify-center">
           <div class="w-11/12">
             <p
-              class="
-                font-bold font-sans
-                text-sm
-                leading-snug
-                w-full
-                text-gray-800 text-opacity-50
-              "
+              class="font-bold font-sans text-sm leading-snug w-full text-gray-800 text-opacity-50"
             >
               Most of my work has been for private companies, but I have worked
               on some projects on my own with people who have believed in me,
@@ -279,15 +138,3 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-.bg-image-counter {
-  background-image: url("/works/ctm-1-min.png");
-}
-.bg-image-knives {
-  background-image: url("/works/knives-1-min.png");
-}
-.bg-image-cf {
-  background-image: url("/works/cf-1-min.png");
-}
-</style>

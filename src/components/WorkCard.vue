@@ -25,13 +25,7 @@
         {{ name }}
       </h1>
       <p
-        class="
-          font-bold
-          text-xl
-          leading-snug
-          mb-10
-          text-gray-800 text-opacity-70
-        "
+        class="font-bold text-xl leading-snug mb-10 text-gray-800 text-opacity-70"
       >
         <slot name="description" />
       </p>
@@ -65,14 +59,7 @@
           >Built with
         </span>
         <div
-          class="
-            flex
-            mt-4
-            mb-4
-            w-1/2
-            justify-start
-            -sm:w-full -sm:justify-evenly
-          "
+          class="flex mt-4 mb-4 w-1/2 justify-start -sm:w-full -sm:justify-evenly"
         >
           <slot name="built" />
         </div>
@@ -93,5 +80,3 @@ export default {
   },
 };
 </script>
-
-<style></style>

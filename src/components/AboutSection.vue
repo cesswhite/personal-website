@@ -1,70 +1,15 @@
 <template>
   <div
     id="aboutSection"
-    class="
-      flex
-      h-screen
-      w-full
-      relative
-      items-center
-      justify-center
-      -sm:py-30
-      -md:h-auto
-    "
+    class="flex h-screen w-full relative items-center justify-center -sm:py-30 -md:h-auto"
   >
-    <!-- <div
-      class="
-        bg-gradient-to-r
-        from-pink-300
-        via-purple-300
-        to-indigo-400
-        h-80
-        top-40
-        right-0
-        w-280
-        absolute
-        -sm:h-60 -sm:w-60
-        -xl:top-10 -xl:w-2/4
-      "
-    ></div>
     <div
-      class="
-        bg-gradient-to-r
-        from-green-200
-        via-green-300
-        to-blue-500
-        h-100
-        bottom-30
-        left-0
-        w-400
-        absolute
-        -sm:w-full -sm:bottom-60
-        -xl:h-50 -xl:bottom-20 -xl:w-3/5
-      "
-    ></div> -->
-    <div
-      class="
-        flex
-        h-auto
-        mx-auto
-        max-w-screen-xl
-        z-10
-        justify-between
-        relative
-        -md:flex-col
-        -lg:w-full
-      "
+      class="flex h-auto mx-auto max-w-screen-xl z-10 justify-between relative -md:flex-col -lg:w-full"
     >
       <div class="h-auto w-1/2 -sm:mb-10 -md:w-full -lg:px-10">
         <big-title title="About me" class="-lg:text-xl"></big-title>
         <p
-          class="
-            font-semibold
-            text-xl
-            leading-snug
-            text-gray-700 text-opacity-70
-            -sm:text-sm
-          "
+          class="font-semibold text-xl leading-snug text-gray-700 text-opacity-70 -sm:text-sm"
         >
           I have always liked everything related to the world of art and
           programming, after finishing university I decided to put these two
@@ -88,33 +33,21 @@
           <a
             href="https://github.com/cesswhite"
             target="_blank"
-            class="
-              font-bold
-              text-xl text-gray-800 text-opacity-50
-              hover:text-opacity-100
-            "
+            class="font-bold text-xl text-gray-800 text-opacity-50 hover:text-opacity-100"
             >GitHub</a
           >
           |
           <a
             href="https://twitter.com/cessarm_"
             target="_blank"
-            class="
-              font-bold
-              text-xl text-gray-800 text-opacity-50
-              hover:text-opacity-100
-            "
+            class="font-bold text-xl text-gray-800 text-opacity-50 hover:text-opacity-100"
             >Twitter</a
           >
           |
           <a
             href="https://www.instagram.com/cess_armando/"
             target="_blank"
-            class="
-              font-bold
-              text-xl text-gray-800 text-opacity-50
-              hover:text-opacity-100
-            "
+            class="font-bold text-xl text-gray-800 text-opacity-50 hover:text-opacity-100"
             >Instagram</a
           >
         </div>
@@ -123,34 +56,10 @@
         class="w-1/2 relative group -sm:mt-10 -sm:w-full -md:mt-30 -md:w-full"
       >
         <div
-          class="
-            bg-cover bg-no-repeat bg-center
-            mx-auto
-            h-140
-            w-120
-            z-1
-            relative
-            photo
-            center-x-y
-            -sm:w-full
-          "
+          class="bg-cover bg-no-repeat bg-center mx-auto h-140 w-120 z-1 relative photo center-x-y -sm:w-full"
         ></div>
         <div
-          class="
-            bg-gradient-to-tr
-            mx-auto
-            from-yellow-200
-            via-yellow-400
-            to-yellow-600
-            h-140
-            transform
-            transition
-            ease-in-out
-            w-120
-            duration-300
-            -md:mt-0 -md:scale-115 -md:-rotate-2
-            group-hover:scale-115 group-hover:-rotate-2
-          "
+          class="bg-gradient-to-tr mx-auto from-yellow-200 via-yellow-400 to-yellow-600 h-140 transform transition ease-in-out w-120 duration-300 -md:mt-0 -md:scale-115 -md:-rotate-2 group-hover:scale-115 group-hover:-rotate-2"
         ></div>
       </div>
     </div>
