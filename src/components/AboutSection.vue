@@ -8,10 +8,40 @@
     >
       <div class="h-auto w-1/2 -sm:mb-10 -md:w-full -lg:px-10">
         <big-title title="About me" class="-lg:text-xl"></big-title>
-        <p
-          class="font-semibold text-xl leading-snug text-gray-700 text-opacity-70 -sm:text-sm"
-        >
-          I have always liked everything related to the world of art and
+        <p class="font-semibold text-xl leading-snug text-gray-500 -sm:text-sm">
+          Hello! My name is César and on the internet I use the nickname
+          <span
+            class="text-gray-900 inline italic underline hover:text-blue-500"
+            >cesswhite
+          </span>
+          <span class="text-sm inline italic">
+            (abbreviation of my name and my favorite color)</span
+          >.
+          <br />
+          <br />
+          I'm a front end developer with 3+ years of experience and I've worked
+          on different projects from a landing page to a ticket system similar
+          to TicketMaster or a Word file viewer.
+          <br />
+          <br />
+          I always liked art or at least some of it, I think art can be found
+          everywhere, it's just a matter of looking closely 👀...
+          <br />
+          But the technology had its point, it was incredible to know how these
+          machines with a screen could amuse us and help us in so many daily
+          tasks. For me, this is being
+          <span class="text-green-500 inline">Front-End</span>, combining
+          <span class="text-pink-500 inline">Art</span> and
+          <span class="text-blue-500 inline">Technology</span>.
+          <br />
+          <br />
+          Join me on this journey.
+          <br />
+          <br />
+          Long? Maybe
+          <br />
+          Fun? Absolutely sure
+          <!-- I have always liked everything related to the world of art and
           programming, after finishing university I decided to put these two
           universes together.
           <br />
@@ -27,7 +57,7 @@
           <a href="https://medtrainer.com/" class="text-orange-500"
             >MedTrainer</a
           >, where I perform automated tests, solve bugs and integrate new
-          modules.
+          modules. -->
         </p>
         <div class="mt-4 -sm:text-center">
           <a
@@ -53,7 +83,7 @@
         </div>
       </div>
       <div
-        class="w-1/2 relative group -sm:mt-10 -sm:w-full -md:mt-30 -md:w-full"
+        class="flex w-1/2 relative items-center justify-center group -sm:mt-10 -sm:w-full -md:mt-30 -md:w-full"
       >
         <div
           class="bg-cover bg-no-repeat bg-center mx-auto h-140 w-120 z-1 relative photo center-x-y -sm:w-full"

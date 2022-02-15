@@ -5,7 +5,7 @@
   >
     <notification :show="showNotification" />
     <div
-      class="h-full w-full z-1 center-x-y backdrop-filter backdrop-blur-lg"
+      class="h-full w-full z-1 center-x-y backdrop-filter backdrop-blur-sm"
     ></div>
     <div
       class="bg-gradient-to-t h-full from-blue-500 via-green-300 to-blue-400 right-40 bottom-0 w-20 absolute -sm:opacity-60 -md:left-0"
@@ -81,9 +81,9 @@
               >
               </textarea>
             </div>
-            <div class="mt-10 w-full">
+            <div class="flex mt-10 w-full justify-end">
               <button
-                class="rounded-md bg-gray-800 w-full py-2"
+                class="rounded-md bg-gray-800 py-4 w-1/2 -sm:w-full"
                 @click="sendEmail"
               >
                 <span class="font-bold text-xl text-gray-50">Send an owl</span>

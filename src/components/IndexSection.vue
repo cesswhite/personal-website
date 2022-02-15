@@ -1,49 +1,19 @@
 <template>
   <div id="home" class="h-screen w-full relative">
     <div
-      class="h-screen w-full z-1 center-x-y backdrop-filter backdrop-blur-lg"
+      class="h-screen w-full z-1 center-x-y backdrop-filter backdrop-blur-sm"
     ></div>
     <div
-      class="
-        bg-gradient-to-r
-        from-yellow-300
-        via-red-500
-        to-pink-500
-        h-20
-        opacity-80
-        transform
-        top-80
-        -left-40
-        w-180
-        rotate-45
-        absolute
-      "
+      class="bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 h-20 opacity-80 transform top-80 -left-40 w-180 rotate-45 absolute"
     ></div>
     <div
-      class="
-        bg-gradient-to-r
-        from-green-300
-        via-blue-500
-        to-purple-600
-        h-20
-        opacity-80
-        transform
-        right-0
-        bottom-50
-        w-100
-        rotate-45
-        absolute
-      "
+      class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 h-20 opacity-80 transform right-0 bottom-50 w-100 rotate-45 absolute"
     ></div>
 
     <div class="h-screen mx-auto max-w-screen-xl z-10 relative -xl:w-full">
       <div class="center-y -lg:text-center">
         <h1
-          class="
-            font-semibold
-            text-gray-800 text-9xl
-            -sm:text-center -sm:text-7xl
-          "
+          class="font-semibold text-gray-800 text-8xl -sm:text-center -sm:text-7xl"
         >
           <span class="capitalize">{{ words[setRandomWord] }} </span>
           <br />
