@@ -28,19 +28,19 @@
           <template v-slot:built>
             <img
               src="../assets/logos/vue.svg"
-              alt=""
-              class="mr-4 filter-grayscale -md:filter-none hover:filter-none"
+              alt="vue-logo"
+              class="mr-4"
+              width="32"
+              height="32"
             />
             <img
               src="../assets/logos/element.svg"
-              alt=""
-              class="mr-4 filter-grayscale -md:filter-none hover:filter-none"
+              alt="element-logo"
+              class="mr-4"
+              width="90"
+              height="40"
             />
-            <img
-              src="../assets/logos/php.svg"
-              alt=""
-              class="filter-grayscale -md:filter-none hover:filter-none"
-            />
+            <img src="../assets/logos/php.svg" alt="" width="42" height="42" />
           </template>
         </work-card>
 
@@ -66,13 +66,17 @@
           <template v-slot:built>
             <img
               src="../assets/logos/html.svg"
-              alt=""
-              class="mr-4 filter-grayscale -md:filter-none hover:filter-none"
+              alt="html5-logo"
+              width="30"
+              height="30"
+              class="mr-4"
             />
             <img
               src="../assets/logos/sass.svg"
-              alt=""
-              class="filter-grayscale -md:filter-none hover:filter-none"
+              alt="sass-logo"
+              width="40"
+              height="40"
+              class=""
             />
           </template>
         </work-card>
@@ -97,19 +101,19 @@
           <template v-slot:built>
             <img
               src="../assets/logos/vue.svg"
-              alt=""
-              class="mr-4 filter-grayscale -md:filter-none hover:filter-none"
+              alt="vue-logo"
+              class="mr-4"
+              width="32"
+              height="32"
             />
             <img
               src="../assets/logos/element.svg"
-              alt=""
-              class="mr-4 filter-grayscale -md:filter-none hover:filter-none"
+              alt="element-logo"
+              class="mr-4"
+              width="90"
+              height="40"
             />
-            <img
-              src="../assets/logos/php.svg"
-              alt=""
-              class="filter-grayscale -md:filter-none hover:filter-none"
-            />
+            <img src="../assets/logos/php.svg" alt="" width="42" height="42" />
           </template>
         </work-card>
 
@@ -117,16 +121,18 @@
         <div class="flex mb-10 items-center justify-center">
           <div class="w-11/12">
             <p
-              class="font-bold font-sans text-sm leading-snug w-full text-gray-800 text-opacity-50"
+              class="font-bold font-sans text-base leading-snug w-full text-gray-800 text-opacity-70"
             >
               Most of my work has been for private companies, but I have worked
               on some projects on my own with people who have believed in me,
               these are some of them. If you want to know more about what I do
               or can do, I invite you to visit
               <a
+                rel="noopener noreferrer"
+                aria-label="Eco Development Studios"
                 href="https://ecodev.netlify.app/"
                 target="_blank"
-                class="text-blue-600"
+                class="text-gray-900 underline"
               >
                 my digital studio
               </a>

@@ -30,9 +30,9 @@
           But the technology had its point, it was incredible to know how these
           machines with a screen could amuse us and help us in so many daily
           tasks. For me, this is being
-          <span class="text-green-500 inline">Front-End</span>, combining
-          <span class="text-pink-500 inline">Art</span> and
-          <span class="text-blue-500 inline">Technology</span>.
+          <span class="text-green-600 inline">Front-End</span>, combining
+          <span class="text-pink-600 inline">Art</span> and
+          <span class="text-blue-600 inline">Technology</span>.
           <br />
           <br />
           Join me on this journey.
@@ -61,23 +61,29 @@
         </p>
         <div class="mt-4 -sm:text-center">
           <a
+            rel="noopener noreferrer"
+            aria-label="GitHub"
             href="https://github.com/cesswhite"
             target="_blank"
-            class="font-bold text-xl text-gray-800 text-opacity-50 hover:text-opacity-100"
+            class="font-bold text-xl text-gray-700 underline hover:text-opacity-100"
             >GitHub</a
           >
           |
           <a
+            rel="noopener noreferrer"
+            aria-label="Twitter"
             href="https://twitter.com/cessarm_"
             target="_blank"
-            class="font-bold text-xl text-gray-800 text-opacity-50 hover:text-opacity-100"
+            class="font-bold text-xl text-gray-700 underline hover:text-opacity-100"
             >Twitter</a
           >
           |
           <a
+            rel="noopener noreferrer"
+            aria-label="Instagram"
             href="https://www.instagram.com/cess_armando/"
             target="_blank"
-            class="font-bold text-xl text-gray-800 text-opacity-50 hover:text-opacity-100"
+            class="font-bold text-xl text-gray-700 underline hover:text-opacity-100"
             >Instagram</a
           >
         </div>

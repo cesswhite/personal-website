@@ -4,10 +4,16 @@
       <slot name="bg-image" />
     </div>
     <div class="flex flex-col items-stretch relative -sm:mt-4 -md:w-full">
-      <a :href="url" target="_blank" class="h-8 -top-8 right-2 w-8 absolute">
+      <a
+        rel="noopener noreferrer"
+        :aria-label="name"
+        :href="url"
+        target="_blank"
+        class="h-8 -top-8 right-2 w-8 absolute group"
+      >
         <svg
           viewBox="0 0 20 20"
-          class="h-8 fill-current text-gray-800 text-opacity-30 w-8"
+          class="h-8 fill-current text-gray-800 text-opacity-30 w-8 group-hover:text-opacity-80"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
@@ -18,49 +24,53 @@
           ></path>
         </svg>
       </a>
-      <span class="font-bold text-lg text-gray-800 text-opacity-30 italic">
+      <span class="font-bold text-lg text-gray-800 text-opacity-40 italic">
         {{ type }}
       </span>
-      <h1 class="font-bold mb-4 text-4xl">
+      <h1 class="font-bold text-4xl">
         {{ name }}
       </h1>
       <p
-        class="font-bold text-xl leading-snug mb-10 text-gray-800 text-opacity-70"
+        class="font-bold mt-4 text-xl leading-snug text-gray-800 text-opacity-70"
       >
         <slot name="description" />
       </p>
-      <div>
-        <span class="font-bold text-lg text-gray-800 text-opacity-40"
+      <div class="mt-10">
+        <span class="font-bold text-lg text-gray-800 text-opacity-50"
           >Devices
         </span>
-        <div class="flex mt-4 mb-4 w-1/2 justify-start">
+        <div class="flex mt-2 w-1/2 justify-start">
           <img
             v-if="desktop"
             src="../assets/devices/desktop.svg"
             alt="desktop-device"
-            class="h-6 opacity-30 w-6"
+            width="24"
+            height="24"
+            class="h-6 opacity-50 w-6"
           />
           <img
             v-if="tablet"
             src="../assets/devices/tablet.svg"
             alt="tablet-device"
-            class="h-6 opacity-30 w-6"
+            width="24"
+            height="24"
+            class="h-6 opacity-50 w-6"
           />
           <img
             v-if="phone"
             src="../assets/devices/phone.svg"
             alt="phone-device"
-            class="h-6 opacity-30 w-6"
+            width="24"
+            height="24"
+            class="h-6 opacity-50 w-6"
           />
         </div>
       </div>
-      <div class="w-full">
-        <span class="font-bold text-lg text-gray-800 text-opacity-40"
+      <div class="mt-4 w-full">
+        <span class="font-bold text-lg text-gray-800 text-opacity-50"
           >Built with
         </span>
-        <div
-          class="flex mt-4 mb-4 w-1/2 justify-start -sm:w-full -sm:justify-evenly"
-        >
+        <div class="flex w-1/2 justify-start -sm:w-full -sm:justify-evenly">
           <slot name="built" />
         </div>
       </div>

@@ -1,7 +1,13 @@
 <template>
   <div class="w-full relative">
     <Header />
-    <router-view />
+    <div class="-mt-20 overflow-x-hidden">
+      <index-section />
+      <about-section />
+      <works-section />
+      <eco-studios />
+      <contact-section />
+    </div>
   </div>
 </template>
 

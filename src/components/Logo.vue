@@ -1,5 +1,5 @@
 <template>
-  <a href="#home" v-smooth-scroll>
+  <a href="#home" v-smooth-scroll rel="noopener noreferrer" aria-label="home">
     <svg
       class="h-12 w-12"
       viewBox="0 0 60 36"
