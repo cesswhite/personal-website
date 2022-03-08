@@ -6,6 +6,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     AboutSection: typeof import('./src/components/AboutSection.vue')['default']
     BigTitle: typeof import('./src/components/BigTitle.vue')['default']
+    Bubbles: typeof import('./src/components/Bubbles.vue')['default']
     ContactSection: typeof import('./src/components/ContactSection.vue')['default']
     EcoLogo: typeof import('./src/components/EcoLogo.vue')['default']
     EcoStudios: typeof import('./src/components/EcoStudios.vue')['default']

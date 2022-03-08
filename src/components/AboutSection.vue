@@ -1,25 +1,20 @@
 <template>
-  <div
-    id="aboutSection"
-    class="flex h-screen w-full relative items-center justify-center -sm:py-30 -md:h-auto"
-  >
+  <div id="aboutSection" class="h-auto w-full py-10">
     <div
-      class="flex h-auto mx-auto max-w-screen-xl z-10 justify-between relative -md:flex-col -lg:w-full"
+      class="mx-auto max-w-screen-lg grid gap-10 grid-cols-2 -sm:grid-cols-1 -lg:w-full -lg:px-10"
     >
-      <div class="h-auto w-1/2 -sm:mb-10 -md:w-full -lg:px-10">
-        <big-title title="About me" class="-lg:text-xl"></big-title>
+      <big-title title="About me" class="col-span-2"></big-title>
+      <div class="col-span-1 -sm:col-span-2">
         <p class="font-semibold text-xl leading-snug text-gray-500 -sm:text-sm">
           Hello! My name is César and on the internet I use the nickname
           <span
             class="text-gray-900 inline italic underline hover:text-blue-500"
-            >cesswhite
-          </span>
-          <span class="text-sm inline italic">
-            (abbreviation of my name and my favorite color)</span
-          >.
+            >cesswhite</span
+          >
+          (abbreviation of my name and my favorite color)
           <br />
           <br />
-          I'm a front end developer with 3+ years of experience and I've worked
+          I'm a front end developer with 4+ years of experience and I've worked
           on different projects from a landing page to a ticket system similar
           to TicketMaster or a Word file viewer.
           <br />
@@ -41,23 +36,6 @@
           Long? Maybe
           <br />
           Fun? Absolutely sure
-          <!-- I have always liked everything related to the world of art and
-          programming, after finishing university I decided to put these two
-          universes together.
-          <br />
-          For more than two years I have been increasing my knowledge to offer
-          people a work well done, with current technology and innovative
-          designs.
-          <br />
-          <br />
-          I worked for a digital agency where I developed a ticketing platform,
-          an online store and a CRM system, all this developed with VueJS.
-          <br />
-          Currently working as front-end developer at
-          <a href="https://medtrainer.com/" class="text-orange-500"
-            >MedTrainer</a
-          >, where I perform automated tests, solve bugs and integrate new
-          modules. -->
         </p>
         <div class="mt-4 -sm:text-center">
           <a
@@ -89,7 +67,7 @@
         </div>
       </div>
       <div
-        class="flex w-1/2 relative items-center justify-center group -sm:mt-10 -sm:w-full -md:mt-30 -md:w-full"
+        class="flex col-span-1 group relative items-center justify-center -sm:mt-10 -sm:col-span-2"
       >
         <div
           class="bg-cover bg-no-repeat bg-center mx-auto h-140 w-120 z-1 relative photo center-x-y -sm:w-full"

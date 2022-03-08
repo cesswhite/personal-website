@@ -1,16 +1,16 @@
 <template>
-  <div class="w-full top-0 z-20 filter-drop sticky -sm:top-0">
-    <div class="flex mx-auto h-20 w-screen-xl items-center -xl:w-full -xl:px-4">
-      <div class="w-1/2">
-        <Logo />
-      </div>
+  <div class="bg-gray-50/95 border-b-2 border-gray-100 w-full top-0 z-20 fixed">
+    <div
+      class="flex mx-auto w-screen-lg py-2 items-center justify-between -lg:w-full -lg:px-4"
+    >
+      <Logo />
       <div class="flex w-1/2 items-center justify-end -lg:hidden">
         <a
           rel="noopener noreferrer"
           aria-label="About"
           href="#aboutSection"
           v-smooth-scroll
-          class="font-bold text-xl text-gray-800 w-1/4 hover:underline"
+          class="font-semibold text-base mr-4 text-gray-800 inline hover:text-gray-900 hover:underline"
         >
           About
         </a>
@@ -19,7 +19,7 @@
           aria-label="Works"
           href="#workSection"
           v-smooth-scroll
-          class="font-bold text-xl text-gray-800 w-1/4 hover:underline"
+          class="font-semibold text-base mr-4 text-gray-800 inline hover:text-gray-900 hover:underline"
         >
           Works
         </a>
@@ -28,7 +28,7 @@
           aria-label="Contact"
           href="#contactSection"
           v-smooth-scroll
-          class="font-bold text-xl text-gray-800 w-1/4 hover:underline"
+          class="font-semibold text-base text-gray-800 inline hover:text-gray-900 hover:underline"
         >
           Contact
         </a>

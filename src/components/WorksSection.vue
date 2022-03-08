@@ -1,8 +1,6 @@
 <template>
   <div id="workSection" class="w-full pt-20 relative">
-    <div
-      class="mx-auto max-w-screen-xl z-10 relative -sm:h-auto -sm:pt-0 -xl:w-full -xl:px-4"
-    >
+    <div class="mx-auto max-w-screen-lg z-10 relative -lg:w-full -lg:px-10">
       <div class="w-full">
         <big-title title="Works"></big-title>
       </div>

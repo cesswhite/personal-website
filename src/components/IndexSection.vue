@@ -1,26 +1,18 @@
 <template>
-  <div id="home" class="h-screen w-full relative">
-    <div
-      class="h-screen w-full z-1 center-x-y backdrop-filter backdrop-blur-sm"
-    ></div>
-    <div
-      class="bg-gradient-to-r from-yellow-300 via-red-500 to-pink-500 h-20 opacity-80 transform top-80 -left-40 w-180 rotate-45 absolute"
-    ></div>
-    <div
-      class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 h-20 opacity-80 transform right-0 bottom-50 w-100 rotate-45 absolute"
-    ></div>
-
-    <div class="h-screen mx-auto max-w-screen-xl z-10 relative -xl:w-full">
-      <div class="center-y -lg:text-center">
+  <div
+    id="home"
+    class="flex h-screen mt-20 w-full relative items-center justify-center overflow-hidden"
+  >
+    <bubbles>
+      <template #title>
         <h1
-          class="font-semibold text-gray-800 text-8xl -sm:text-center -sm:text-7xl"
+          class="font-sans font-bold text-center text-4xl text-gray-900 capitalize"
         >
-          <span class="capitalize">{{ words[setRandomWord] }} </span>
-          <br />
-          front-end developer.
+          {{ words[setRandomWord] }} <br />
+          Front-End Developer
         </h1>
-      </div>
-    </div>
+      </template>
+    </bubbles>
   </div>
 </template>
 
