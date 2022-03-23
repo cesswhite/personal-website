@@ -128,7 +128,7 @@
               <a
                 rel="noopener noreferrer"
                 aria-label="Eco Development Studios"
-                href="https://ecodev.netlify.app/"
+                href="https://ecostudios.dev/"
                 target="_blank"
                 class="text-gray-900 underline"
               >
